@@ -14,8 +14,8 @@ permissions:
     object: /home/ec2-user/webapp/codeDeployApp
     except: [applicationStart.sh]
   - 
-    group: root
+    group: ec2-user
     mode: 777
     object: /home/ec2-user/webapp/codeDeployApp/applicationStart.sh
-    owner: root
+    owner: ec2-user
 version: 0.0
