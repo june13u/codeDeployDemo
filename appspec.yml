@@ -5,5 +5,5 @@ files:
     source: /
 os: linux
 permissions: 
-  - object:/home/ec2-user/webapp/codeDeployApp
+  - object: /home/ec2-user/webapp/codeDeployApp
 version: 0.0
