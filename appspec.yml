@@ -6,7 +6,7 @@ files:
 hooks: 
   AfterInstall: 
     - 
-      location: Scripts/ApplicationStart.sh
+      location: applicationStart.sh
       timeout: 180
 os: linux
 permissions: 
