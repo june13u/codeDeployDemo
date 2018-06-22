@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./mvnw spring-boot:run &
+nohup ./mvnw spring-boot:run &
